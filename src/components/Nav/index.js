@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import { Nav, MenuLink, Logo, Menu, Hamburger } from './NavbarElements'
 
+
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
             <Nav>
-                <Logo href="">
+                <Logo href="#">
+
                     Elite<span>Clean</span>Chattanooga
                 </Logo>
                 <Hamburger onClick={() => setIsOpen(!isOpen)}>
