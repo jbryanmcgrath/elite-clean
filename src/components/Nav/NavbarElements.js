@@ -22,7 +22,7 @@ export const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background: white;
-  position: absolute;
+  height:50px;
   top: 0;
   left: 0;
   right: 0;
