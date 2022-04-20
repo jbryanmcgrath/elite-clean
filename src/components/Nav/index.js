@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Nav, MenuLink, Logo, Menu, Hamburger } from './NavbarElements'
+import { Nav, MenuLink, Logo, Menu, Hamburger, Button } from './NavbarElements'
 
 
 function Navbar() {
@@ -22,6 +22,9 @@ function Navbar() {
                     <MenuLink href="">Janitorial</MenuLink>
                     <MenuLink href="">Pressure Washing</MenuLink>
                     <MenuLink href="">Contact</MenuLink>
+                    <Button>
+                        Get Quote
+                    </Button>
                 </Menu>
             </Nav>
         </>

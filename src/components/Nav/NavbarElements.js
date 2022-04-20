@@ -4,12 +4,14 @@ export const MenuLink = styled.a`
   padding: 1rem 2rem;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  color: #67bc98;
+  text-decoration:none;
+  font-weight:bold;
+  color: black;
   transition: all 0.3s ease-in;
   font-size: 0.9rem;
   &:hover {
     color: #7b7fda;
+    text-decoration: underline crimson;
   }
 `;
 
@@ -32,10 +34,11 @@ export const Logo = styled.a`
   text-decoration: none;
   font-weight: 800;
   font-size: 1.7rem;
+  text-decoration: underline crimson;
   span {
     color: blue;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -68,3 +71,20 @@ export const Hamburger = styled.div`
     display: flex;
   }
 `;
+
+export const Button = styled.button`
+  border: 2px solid black;
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  &:hover{
+    background-color: white;
+    color:black;
+    text-decoration: underline crimson;
+  }
+  
+
+`
