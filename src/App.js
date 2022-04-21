@@ -1,16 +1,23 @@
 import Navbar from './components/Nav';
 import LandingPage from './components/LandingPage';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
+import styled from 'styled-components'
+
+
+
+const Container = styled.div`
+    height: 100vh;
+    overflow: hidden;
+`
 
 
 
 function App() {
   return (
-    <Router>
+    <Container>
       <Navbar />
       <LandingPage />
-    </Router>
+    </Container>
   );
 }
 

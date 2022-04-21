@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const Left = styled.div`
     width: 60%;
+    margin-left: -50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,11 @@ export const Left = styled.div`
 
 export const Right = styled.div`
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 `
 export const Title = styled.h1`
     font-size: 60px;
@@ -70,4 +76,8 @@ export const Phone = styled.span`
 
 export const ContactText = styled.span`
     color: grey;
-` 
+`
+export const Image = styled.img`
+    width:100%;
+    
+`

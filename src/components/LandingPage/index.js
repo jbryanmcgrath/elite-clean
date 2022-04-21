@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Left, Right, Description, Title, Info, Button, Contact, Phone, ContactText } from './LandingPageElements'
+import { Container, Left, Right, Description, Title, Info, Button, Contact, Phone, ContactText, Image } from './LandingPageElements'
+import HomeImg from '../../img/homeimg.png'
 
 function LandingPage() {
     return (
@@ -27,7 +28,7 @@ function LandingPage() {
                 </Info>
             </Left>
             <Right>
-
+                <Image src={HomeImg} />
             </Right>
         </Container>
 
