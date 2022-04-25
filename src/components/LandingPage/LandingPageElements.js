@@ -47,7 +47,7 @@ export const Info = styled.div`
 export const Button = styled.button`
   border: 2px solid black;
   padding: 10px 15px;
-  background-color: blue;
+  background-color: #264496;
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -69,7 +69,7 @@ export const Phone = styled.span`
     color: black;
     font-weight: bold;
     span {
-        color: blue;
+        color: #264496;
         cursor: pointer;
     }
 `

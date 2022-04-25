@@ -6,11 +6,11 @@ export const MenuLink = styled.a`
   text-align: center;
   text-decoration:none;
   font-weight:bold;
+  font-weight:800;
   color: black;
   transition: all 0.3s ease-in;
   font-size: 0.9rem;
   &:hover {
-    color: #7b7fda;
     text-decoration: underline crimson;
   }
 `;
@@ -21,23 +21,23 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: white;
   height:50px;
   top: 0;
   left: 0;
   right: 0;
+  
 `;
 
 export const Logo = styled.a`
   padding: 1rem 0;
   color: #000000;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 1.7rem;
   text-decoration: underline crimson;
   span {
-    color: blue;
-    font-weight: 500;
+    color: #264496;
+    font-weight: 800;
     font-size: 1.5rem;
   }
 `;
@@ -75,7 +75,7 @@ export const Hamburger = styled.div`
 export const Button = styled.button`
   border: 2px solid black;
   padding: 10px 15px;
-  background-color: blue;
+  background-color: #264496;
   color: white;
   cursor: pointer;
   font-weight: bold;
