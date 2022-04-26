@@ -2,6 +2,7 @@ import Navbar from './components/Nav';
 import LandingPage from './components/LandingPage';
 import './App.css';
 import styled from 'styled-components'
+import OurWork from './components/OurWork';
 
 
 
@@ -23,11 +24,16 @@ const IntoShape = styled.div`
 
 function App() {
   return (
-    <Container>
-      <Navbar />
-      <LandingPage />
-      <IntoShape />
-    </Container>
+    <>
+      <Container>
+        <Navbar />
+        <LandingPage />
+        <IntoShape />
+      </Container>
+      <Container>
+        <OurWork />
+      </Container>
+    </>
   );
 }
 
