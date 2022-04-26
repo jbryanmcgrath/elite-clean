@@ -1,6 +1,5 @@
 import Navbar from './components/Nav';
 import LandingPage from './components/LandingPage';
-import './App.css';
 import styled from 'styled-components'
 import OurWork from './components/OurWork';
 
@@ -22,6 +21,17 @@ const IntoShape = styled.div`
   z-index: -1;
 `
 
+const OurWorkShape = styled.div`
+  clip-path: polygon(0 0, 11% 0, 48% 100%, 0% 100%);;
+  background-color: #0094C6;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: -1;
+`
+
 function App() {
   return (
     <>
@@ -32,6 +42,7 @@ function App() {
       </Container>
       <Container>
         <OurWork />
+        <OurWorkShape />
       </Container>
     </>
   );
