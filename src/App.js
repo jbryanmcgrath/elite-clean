@@ -8,6 +8,7 @@ import OurWork from './components/OurWork';
 const Container = styled.div`
     height: 100vh;
     overflow: hidden;
+    position: relative;
 `
 
 const IntoShape = styled.div`
@@ -26,7 +27,7 @@ const OurWorkShape = styled.div`
   background-color: #0094C6;
   height: 100%;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left:0;
   z-index: -1;
