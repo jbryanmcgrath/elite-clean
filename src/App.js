@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import OurWork from './components/OurWork';
 import Janitorial from './components/Janitorial';
 import PressureWashing from './components/PressureWashing';
+import Contact from './components/Contact';
 
 
 
@@ -45,6 +46,17 @@ const JanitorialShape = styled.div`
   left:0;
   z-index: -1;
 `
+const PressureWashingShape = styled.div`
+  clip-path: polygon(33% 0%, 0% 0%, 0% 20%, 0% 79.5%, 0% 100%, 33% 100%, 47% 80%, 47% 20%);
+  background-color: #0094C6;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
+`
+
 
 function App() {
   return (
@@ -64,6 +76,10 @@ function App() {
       </Container>
       <Container>
         <PressureWashing />
+        <PressureWashingShape />
+      </Container>
+      <Container>
+        <Contact />
       </Container>
     </>
   );

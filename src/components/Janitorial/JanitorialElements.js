@@ -4,6 +4,7 @@ export const Container = styled.div`
     display:flex;
     justify-content: center;
     height: calc(100vh - 200px);
+    
 `
 
 export const Right = styled.div`
@@ -30,6 +31,7 @@ export const Left = styled.div`
 
 export const Image = styled.img`
     width:80%;
+    border: 2px solid black;
 `
 
 export const Title = styled.span`

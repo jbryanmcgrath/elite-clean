@@ -12,7 +12,7 @@ const Janitorial = () => {
 
 
     return (
-        <Container>
+        <Container id="janitorial">
             <Left>
                 <Title>
                     Janitorial Services
@@ -26,7 +26,7 @@ const Janitorial = () => {
             <Right>
                 <Image src={JanitorialImg} />
             </Right>
-        </Container>
+        </Container >
     )
 }
 

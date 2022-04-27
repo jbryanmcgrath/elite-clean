@@ -79,5 +79,6 @@ export const ContactText = styled.span`
 `
 export const Image = styled.img`
     width:100%;
+    border: 2px solid black;
     
 `

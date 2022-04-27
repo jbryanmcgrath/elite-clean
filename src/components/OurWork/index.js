@@ -5,7 +5,7 @@ import OurWorkImg from '../../img/brad.png'
 
 const OurWork = () => {
     return (
-        <Container>
+        <Container id="our-work">
             <Left>
                 <Image src={OurWorkImg} />
             </Left>

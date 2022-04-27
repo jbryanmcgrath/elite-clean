@@ -18,10 +18,10 @@ function Navbar() {
                 <span />
             </Hamburger>
             <Menu isOpen={isOpen}>
-                <MenuLink href="">Our Work</MenuLink>
-                <MenuLink href="">Janitorial</MenuLink>
-                <MenuLink href="">Pressure Washing</MenuLink>
-                <MenuLink href="">Contact</MenuLink>
+                <MenuLink to="our-work">Our Work</MenuLink>
+                <MenuLink to="janitorial">Janitorial</MenuLink>
+                <MenuLink to="pressure-washing">Pressure Washing</MenuLink>
+                <MenuLink>Contact</MenuLink>
                 <Button>
                     Get Quote
                 </Button>

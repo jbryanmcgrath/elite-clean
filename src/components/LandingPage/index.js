@@ -5,7 +5,7 @@ import HomeImg from '../../img/homeimg.png'
 function LandingPage() {
     return (
 
-        <Container>
+        <Container id="landing-page">
             <Left>
                 <Title>
                     Elite Clean is here for YOU.
