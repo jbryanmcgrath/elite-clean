@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/elite-clean/static/css/main.e6c13ad2.css",
+    "main.js": "/elite-clean/static/js/main.3e8da197.js",
+    "static/media/driveway.jpg": "/elite-clean/static/media/driveway.a8db33bbc57cf2c074b4.jpg",
+    "static/media/homeimg.png": "/elite-clean/static/media/homeimg.4b6751ce73c36ef3e071.png",
+    "static/media/janitorial.png": "/elite-clean/static/media/janitorial.a58df90b7d16082811b8.png",
+    "static/media/brad.png": "/elite-clean/static/media/brad.6f4a65c68e1b468975c8.png",
+    "static/media/pressure-washing.png": "/elite-clean/static/media/pressure-washing.ccdda8fab41f56c59955.png",
+    "index.html": "/elite-clean/index.html",
+    "main.e6c13ad2.css.map": "/elite-clean/static/css/main.e6c13ad2.css.map",
+    "main.3e8da197.js.map": "/elite-clean/static/js/main.3e8da197.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3e8da197.js"
+  ]
+}
