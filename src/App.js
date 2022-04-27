@@ -3,6 +3,7 @@ import LandingPage from './components/LandingPage';
 import styled from 'styled-components'
 import OurWork from './components/OurWork';
 import Janitorial from './components/Janitorial';
+import PressureWashing from './components/PressureWashing';
 
 
 
@@ -60,6 +61,9 @@ function App() {
       <Container>
         <Janitorial />
         <JanitorialShape />
+      </Container>
+      <Container>
+        <PressureWashing />
       </Container>
     </>
   );

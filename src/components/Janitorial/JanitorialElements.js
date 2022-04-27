@@ -20,6 +20,7 @@ export const UL = styled.ul`
 `
 export const Left = styled.div`
     width: 50%;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: left;

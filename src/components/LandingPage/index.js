@@ -19,10 +19,10 @@ function LandingPage() {
                     </Button>
                     <Contact>
                         <Phone>
-                            Call Us At <span>423-423-4233</span>
+                            Call Us At <span>423-389-4771</span>
                         </Phone>
                         <ContactText>
-                            Give us a call today!
+                            InstagramPH || FacebookPH
                         </ContactText>
                     </Contact>
                 </Info>
